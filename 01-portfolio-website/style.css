@@ -1,0 +1,175 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black;
+}
+
+/* Header and Navigation */
+header {
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+nav h1 {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #4CAF50;
+}
+
+/* Sections */
+section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+#home {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 6rem 2rem;
+    background-color: #f4f4f4;
+    border: black solid;
+    margin-top: 20px;
+    height: 500px;
+}
+#home >div:first-child{
+    text-align: center;
+    flex: 1;
+}
+
+#home h2 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    margin-top: 10px;
+}
+
+#home p {
+    font-size: 2rem;
+    color: #666;
+}
+
+.hero-image1 img{
+   width: 200px;
+}
+
+.hero-image2 img{
+   width: 200px;
+}
+
+/* About Section */
+#about {
+    background-color: white;
+}
+
+#about h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #f4f4f4;
+}
+
+#skills h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+#skills ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+#skills li {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: white;
+}
+
+#contact h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+}
+
+input, textarea {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
