@@ -29,13 +29,14 @@ nav {
 }
 
 nav h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 nav ul {
     display: flex;
     list-style: none;
     gap: 2rem;
+    font-size: 1.5rem;
 }
 
 nav a {
@@ -96,6 +97,9 @@ section {
 
 #about h2 {
     margin-bottom: 1rem;
+    font-size: 3rem;
+}
+#about p{
     font-size: 2rem;
 }
 
@@ -106,7 +110,7 @@ section {
 
 #skills h2 {
     margin-bottom: 1rem;
-    font-size: 2rem;
+    font-size:3rem;
 }
 
 #skills ul {
@@ -130,7 +134,7 @@ section {
 
 #contact h2 {
     margin-bottom: 1rem;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 form {
